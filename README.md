@@ -10,7 +10,7 @@
 > **An evidence-grounded Clinical Decision Support RAG system** strictly scoped to the UK National Institute for Health and Care Excellence ([NICE](https://www.nice.org.uk/)) Guidelines for early and advanced breast cancer diagnosis and management (**NG101** & **CG81**).
 
 ---
-
+<img width="1535" height="820" alt="Screenshot 2026-08-18 150649" src="https://github.com/user-attachments/assets/c0c61ece-af03-48f5-873c-872f8898e298" />
 ![NICE Breast Cancer RAG Web Interface](docs/app-demo.png)
 
 ---
