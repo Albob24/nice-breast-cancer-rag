@@ -11,6 +11,10 @@
 
 ---
 
+![NICE Breast Cancer RAG Web Interface](docs/app-demo.png)
+
+---
+
 ## 🌟 Key Features
 
 * **Strict Medical Guardrails & Grounding:** Zero outside hallucination. If evidence is missing or ambiguous, requests are deterministically rejected with standard fallback responses.
