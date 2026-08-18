@@ -1,0 +1,1802 @@
+{
+  "experiment": "A",
+  "database": "E:\\nice-breast-cancer-rag\\nice_breast_cancer_db_A",
+  "collection": "breast_cancer_guidelines_A",
+  "embedding_model": "gemini-embedding-2",
+  "embedding_dimensions": 768,
+  "top_k": 5,
+  "current_threshold": 0.75,
+  "recommended_threshold": 0.5,
+  "best_metrics": {
+    "threshold": 0.5,
+    "tp": 15,
+    "fp": 0,
+    "tn": 10,
+    "fn": 0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0
+  },
+  "query_results": [
+    {
+      "id": 1,
+      "type": "relevant",
+      "question": "What endocrine therapy is recommended for postmenopausal women with ER-positive invasive breast cancer?",
+      "minimum_distance": 0.3930355906486511,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.3930355906486511,
+          "source": "NG101",
+          "page": "32",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: as an option for adjuvant treatment of hormone receptor-positive, HER2-negative, node-positive early breast cancer at high risk of recurrence. For full de"
+        },
+        {
+          "rank": 2,
+          "distance": 0.39473533630371094,
+          "source": "NG101",
+          "page": "37",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: therapy (past the 5-year point) with an aromatase inhibitor for women and people who are postmenopausal with ER-positive invasive breast cancer who are at"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4197307825088501,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4213092029094696,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        },
+        {
+          "rank": 5,
+          "distance": 0.42684656381607056,
+          "source": "NG101",
+          "page": "35",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: increased. These may include vaginal dryness, hot flushes, insomnia, depression symptoms, dyspareunia, fractures and osteoporosis. But they may vary in se"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "relevant",
+      "question": "What endocrine therapy options should be discussed with premenopausal or perimenopausal people with ER-positive invasive breast cancer?",
+      "minimum_distance": 0.3092086613178253,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.3092086613178253,
+          "source": "NG101",
+          "page": "32",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: as an option for adjuvant treatment of hormone receptor-positive, HER2-negative, node-positive early breast cancer at high risk of recurrence. For full de"
+        },
+        {
+          "rank": 2,
+          "distance": 0.35146453976631165,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        },
+        {
+          "rank": 3,
+          "distance": 0.3592017889022827,
+          "source": "NG101",
+          "page": "29",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: adjuvant treatment of HER2-negative high-risk early breast cancer that has been treated with neoadjuvant or adjuvant chemotherapy in adults with germline "
+        },
+        {
+          "rank": 4,
+          "distance": 0.3622797727584839,
+          "source": "NG101",
+          "page": "30",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: effective, then women may proceed to surgery earlier or may still need to have chemotherapy, either before or after surgery – Early and locally advanced b"
+        },
+        {
+          "rank": 5,
+          "distance": 0.3632376790046692,
+          "source": "NG101",
+          "page": "28",
+          "section": "Hormone receptor positive, HER2-negative breast cancer",
+          "document_preview": "Source: NG101 Section: 1.10 Hormone receptor positive, HER2-negative breast cancer Text: 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast cancer. Neoadjuvant tr"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "relevant",
+      "question": "What endocrine therapy is recommended for people with male reproductive organs who have ER-positive invasive breast cancer?",
+      "minimum_distance": 0.3276676833629608,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.3276676833629608,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        },
+        {
+          "rank": 2,
+          "distance": 0.37465205788612366,
+          "source": "NG101",
+          "page": "35",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: increased. These may include vaginal dryness, hot flushes, insomnia, depression symptoms, dyspareunia, fractures and osteoporosis. But they may vary in se"
+        },
+        {
+          "rank": 3,
+          "distance": 0.41753512620925903,
+          "source": "NG101",
+          "page": "32",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: as an option for adjuvant treatment of hormone receptor-positive, HER2-negative, node-positive early breast cancer at high risk of recurrence. For full de"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4648195207118988,
+          "source": "NG101",
+          "page": "37",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: therapy (past the 5-year point) with an aromatase inhibitor for women and people who are postmenopausal with ER-positive invasive breast cancer who are at"
+        },
+        {
+          "rank": 5,
+          "distance": 0.4815306067466736,
+          "source": "NG101",
+          "page": "30",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: effective, then women may proceed to surgery earlier or may still need to have chemotherapy, either before or after surgery – Early and locally advanced b"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "relevant",
+      "question": "When should extended endocrine therapy with an aromatase inhibitor be offered after tamoxifen?",
+      "minimum_distance": 0.3499559760093689,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.3499559760093689,
+          "source": "NG101",
+          "page": "37",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: therapy (past the 5-year point) with an aromatase inhibitor for women and people who are postmenopausal with ER-positive invasive breast cancer who are at"
+        },
+        {
+          "rank": 2,
+          "distance": 0.4126312732696533,
+          "source": "NG101",
+          "page": "39",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an aromatase inhibitor (after 5 years of tamoxifen therapy) Side effects: These are common side effects experienced during additional years taking endocri"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4145839810371399,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 4,
+          "distance": 0.415667861700058,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        },
+        {
+          "rank": 5,
+          "distance": 0.4248151481151581,
+          "source": "NG101",
+          "page": "35",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: increased. These may include vaginal dryness, hot flushes, insomnia, depression symptoms, dyspareunia, fractures and osteoporosis. But they may vary in se"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "relevant",
+      "question": "What is recommended for extended tamoxifen therapy beyond 5 years?",
+      "minimum_distance": 0.38443630933761597,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.38443630933761597,
+          "source": "NG101",
+          "page": "37",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: therapy (past the 5-year point) with an aromatase inhibitor for women and people who are postmenopausal with ER-positive invasive breast cancer who are at"
+        },
+        {
+          "rank": 2,
+          "distance": 0.43634259700775146,
+          "source": "NG101",
+          "page": "39",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an aromatase inhibitor (after 5 years of tamoxifen therapy) Side effects: These are common side effects experienced during additional years taking endocri"
+        },
+        {
+          "rank": 3,
+          "distance": 0.47315460443496704,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 4,
+          "distance": 0.48305046558380127,
+          "source": "NG101",
+          "page": "41",
+          "section": "Adjuvant bisphosphonate therapy",
+          "document_preview": "Source: NG101 Section: 1.12 Adjuvant bisphosphonate therapy Text: Category Endocrine therapy after breast-conserving surgery for women with ER-positive DCIS Fertility and family planning Effects on fertility and family planning as women should not be"
+        },
+        {
+          "rank": 5,
+          "distance": 0.48738381266593933,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "relevant",
+      "question": "When should neoadjuvant endocrine therapy be considered?",
+      "minimum_distance": 0.4023360013961792,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.4023360013961792,
+          "source": "NG101",
+          "page": "29",
+          "section": "Hormone receptor positive, HER2-negative breast cancer",
+          "document_preview": "Source: NG101 Section: 1.10 Hormone receptor positive, HER2-negative breast cancer Text: therapy compared with neoadjuvant chemotherapy (see table 4). [2018] Table 4 Benefits and risks of neoadjuvant endocrine therapy compared with neoadjuvant chemot"
+        },
+        {
+          "rank": 2,
+          "distance": 0.4055325984954834,
+          "source": "NG101",
+          "page": "29",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: adjuvant treatment of HER2-negative high-risk early breast cancer that has been treated with neoadjuvant or adjuvant chemotherapy in adults with germline "
+        },
+        {
+          "rank": 3,
+          "distance": 0.41019707918167114,
+          "source": "NG101",
+          "page": "28",
+          "section": "Hormone receptor positive, HER2-negative breast cancer",
+          "document_preview": "Source: NG101 Section: 1.10 Hormone receptor positive, HER2-negative breast cancer Text: 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast cancer. Neoadjuvant tr"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4336041510105133,
+          "source": "NG101",
+          "page": "30",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: effective, then women may proceed to surgery earlier or may still need to have chemotherapy, either before or after surgery – Early and locally advanced b"
+        },
+        {
+          "rank": 5,
+          "distance": 0.4456392824649811,
+          "source": "NG101",
+          "page": "27",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: breast cancer: diagnosis and management (NG101) 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast ca"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "relevant",
+      "question": "What does NICE recommend for premenopausal women regarding neoadjuvant chemotherapy versus neoadjuvant endocrine therapy?",
+      "minimum_distance": 0.33640748262405396,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.33640748262405396,
+          "source": "NG101",
+          "page": "28",
+          "section": "Hormone receptor positive, HER2-negative breast cancer",
+          "document_preview": "Source: NG101 Section: 1.10 Hormone receptor positive, HER2-negative breast cancer Text: 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast cancer. Neoadjuvant tr"
+        },
+        {
+          "rank": 2,
+          "distance": 0.3511163294315338,
+          "source": "NG101",
+          "page": "29",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: adjuvant treatment of HER2-negative high-risk early breast cancer that has been treated with neoadjuvant or adjuvant chemotherapy in adults with germline "
+        },
+        {
+          "rank": 3,
+          "distance": 0.38012170791625977,
+          "source": "NG101",
+          "page": "29",
+          "section": "Hormone receptor positive, HER2-negative breast cancer",
+          "document_preview": "Source: NG101 Section: 1.10 Hormone receptor positive, HER2-negative breast cancer Text: therapy compared with neoadjuvant chemotherapy (see table 4). [2018] Table 4 Benefits and risks of neoadjuvant endocrine therapy compared with neoadjuvant chemot"
+        },
+        {
+          "rank": 4,
+          "distance": 0.3879817724227905,
+          "source": "NG101",
+          "page": "27",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: breast cancer: diagnosis and management (NG101) 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast ca"
+        },
+        {
+          "rank": 5,
+          "distance": 0.3948971927165985,
+          "source": "NG101",
+          "page": "30",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: effective, then women may proceed to surgery earlier or may still need to have chemotherapy, either before or after surgery – Early and locally advanced b"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "relevant",
+      "question": "What are the recommendations for HER2-positive breast cancer?",
+      "minimum_distance": 0.3480246663093567,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.3480246663093567,
+          "source": "NG101",
+          "page": "25",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: Neoadjuvant and adjuvant treatment of triple-negative breast cancer 1.8.2 Pembrolizumab is recommended as an option with chemotherapy for neoadjuvant treatment then continued alone as adjuv"
+        },
+        {
+          "rank": 2,
+          "distance": 0.3907727003097534,
+          "source": "NG101",
+          "page": "26",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: option for adjuvant treatment of HER2-positive early breast cancer if there is residual invasive disease in the breast or lymph nodes after neoadjuvant taxane-based and HER2-targeted therap"
+        },
+        {
+          "rank": 3,
+          "distance": 0.3912521004676819,
+          "source": "CG81",
+          "page": "23",
+          "section": "Treatments by receptor subtype",
+          "document_preview": "Source: CG81 Section: 1.7 Treatments by receptor subtype Text: 2023). 1.7.10 Trastuzumab emtansine is recommended as an option for treating HER2‑positive, advanced breast cancer that has previously received trastuzumab and a taxane, separately or in "
+        },
+        {
+          "rank": 4,
+          "distance": 0.39916253089904785,
+          "source": "NG101",
+          "page": "27",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: breast cancer: diagnosis and management (NG101) 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast ca"
+        },
+        {
+          "rank": 5,
+          "distance": 0.41731196641921997,
+          "source": "NG101",
+          "page": "9",
+          "section": "Pretreatment assessment",
+          "document_preview": "Source: NG101 Section: 1.2 Pretreatment assessment Text: breast cancers using standardised and quality-assured immunohistochemical techniques, and report the results quantitatively. [2009] 1.3.3 Assess the PR status of all invasive breast cancers usi"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "relevant",
+      "question": "What treatment is recommended for triple-negative breast cancer?",
+      "minimum_distance": 0.39893025159835815,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.39893025159835815,
+          "source": "CG81",
+          "page": "19",
+          "section": "Choosing systemic anticancer therapy",
+          "document_preview": "Source: CG81 Section: 1.6 Choosing systemic anticancer therapy Text: platinum-containing chemotherapy regimens. How the recommendation might affect practice The recommendation reflects current good practice, but may help standardise it where localise"
+        },
+        {
+          "rank": 2,
+          "distance": 0.41894829273223877,
+          "source": "NG101",
+          "page": "22",
+          "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+          "document_preview": "Source: NG101 Section: 1.8 Triple-negative (ER/PR/HER2-negative) breast cancer Text: tolerated than 3-weekly docetaxel, particularly in people with comorbidities. [2018, amended 2023] For a short explanation of why the committee made the 2018 recomme"
+        },
+        {
+          "rank": 3,
+          "distance": 0.42286184430122375,
+          "source": "NG101",
+          "page": "21",
+          "section": "Systemic anticancer therapy for all receptor subtypes",
+          "document_preview": "Source: NG101 Section: 1.7 Systemic anticancer therapy for all receptor subtypes Text: to 12 weeks (3 to 4 cycles) 8 to 12 weeks 1.7.3 Ensure weekly and fortnightly paclitaxel is available locally, as it is better Early and locally advanced breast ca"
+        },
+        {
+          "rank": 4,
+          "distance": 0.43285393714904785,
+          "source": "CG81",
+          "page": "20",
+          "section": "Treatments by receptor subtype",
+          "document_preview": "Source: CG81 Section: 1.7 Treatments by receptor subtype Text: full details, see NICE's technology appraisal guidance on sacituzumab govitecan (TA819, 2022). 1.7.4 For medicines recommended as options for treating HER2-negative, advanced breast cance"
+        },
+        {
+          "rank": 5,
+          "distance": 0.43357330560684204,
+          "source": "CG81",
+          "page": "19",
+          "section": "Treatments by receptor subtype",
+          "document_preview": "Source: CG81 Section: 1.7 Treatments by receptor subtype Text: Why the committee made this recommendation The committee reviewed evidence about platinum-based chemotherapy regimens for people with triple-negative advanced breast cancer, and discussed"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "relevant",
+      "question": "What is recommended for HER2-negative high-risk early breast cancer with germline BRCA1 or BRCA2 mutations?",
+      "minimum_distance": 0.3648557960987091,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.3648557960987091,
+          "source": "NG101",
+          "page": "24",
+          "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+          "document_preview": "Source: NG101 Section: 1.8 Triple-negative (ER/PR/HER2-negative) breast cancer Text: prevention and management in people with cancer.) For a short explanation of why the committee made the 2025 recommendation and how it might affect practice, see the"
+        },
+        {
+          "rank": 2,
+          "distance": 0.37940293550491333,
+          "source": "NG101",
+          "page": "25",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: Neoadjuvant and adjuvant treatment of triple-negative breast cancer 1.8.2 Pembrolizumab is recommended as an option with chemotherapy for neoadjuvant treatment then continued alone as adjuv"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4018399119377136,
+          "source": "NG101",
+          "page": "28",
+          "section": "Hormone receptor positive, HER2-negative breast cancer",
+          "document_preview": "Source: NG101 Section: 1.10 Hormone receptor positive, HER2-negative breast cancer Text: 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast cancer. Neoadjuvant tr"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4144904315471649,
+          "source": "NG101",
+          "page": "27",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: breast cancer: diagnosis and management (NG101) 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast ca"
+        },
+        {
+          "rank": 5,
+          "distance": 0.42866575717926025,
+          "source": "NG101",
+          "page": "29",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: adjuvant treatment of HER2-negative high-risk early breast cancer that has been treated with neoadjuvant or adjuvant chemotherapy in adults with germline "
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "relevant",
+      "question": "What is recommended for adjuvant bisphosphonate therapy in postmenopausal women with node-positive invasive breast cancer?",
+      "minimum_distance": 0.30767622590065,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.30767622590065,
+          "source": "NG101",
+          "page": "41",
+          "section": "Adjuvant bisphosphonate therapy",
+          "document_preview": "Source: NG101 Section: 1.12 Adjuvant bisphosphonate therapy Text: Category Endocrine therapy after breast-conserving surgery for women with ER-positive DCIS Fertility and family planning Effects on fertility and family planning as women should not be"
+        },
+        {
+          "rank": 2,
+          "distance": 0.3729186952114105,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4586695730686188,
+          "source": "NG101",
+          "page": "42",
+          "section": "Adjuvant bisphosphonate therapy",
+          "document_preview": "Source: NG101 Section: 1.12 Adjuvant bisphosphonate therapy Text: section on radiotherapy techniques. Full details of the evidence and the committee's discussion are in evidence review H: breast radiotherapy. Radiotherapy after breast-conserving surg"
+        },
+        {
+          "rank": 4,
+          "distance": 0.47496217489242554,
+          "source": "NG101",
+          "page": "56",
+          "section": "Follow-up",
+          "document_preview": "Source: NG101 Section: 1.15 Follow-up Text: Bone health 1.14.26 Offer a baseline dual-energy X-ray absorptiometry (DEXA) scan to assess bone mineral density in women with invasive breast cancer who are not receiving bisphosphonates as adjuvant therap"
+        },
+        {
+          "rank": 5,
+          "distance": 0.48464667797088623,
+          "source": "CG81",
+          "page": "29",
+          "section": "Menopausal symptoms",
+          "document_preview": "Source: CG81 Section: 1.11 Menopausal symptoms Text: Managing treatment side effects and menopausal symptoms 1.9 Lymphoedema Recommendations in this section have been stood down as they have been superseded by the February 2025 update on lymphoedema "
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "relevant",
+      "question": "When should bisphosphonates be considered for node-negative invasive breast cancer?",
+      "minimum_distance": 0.34826987981796265,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.34826987981796265,
+          "source": "NG101",
+          "page": "41",
+          "section": "Adjuvant bisphosphonate therapy",
+          "document_preview": "Source: NG101 Section: 1.12 Adjuvant bisphosphonate therapy Text: Category Endocrine therapy after breast-conserving surgery for women with ER-positive DCIS Fertility and family planning Effects on fertility and family planning as women should not be"
+        },
+        {
+          "rank": 2,
+          "distance": 0.38098663091659546,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4689987301826477,
+          "source": "NG101",
+          "page": "42",
+          "section": "Adjuvant bisphosphonate therapy",
+          "document_preview": "Source: NG101 Section: 1.12 Adjuvant bisphosphonate therapy Text: section on radiotherapy techniques. Full details of the evidence and the committee's discussion are in evidence review H: breast radiotherapy. Radiotherapy after breast-conserving surg"
+        },
+        {
+          "rank": 4,
+          "distance": 0.49333733320236206,
+          "source": "NG101",
+          "page": "56",
+          "section": "Follow-up",
+          "document_preview": "Source: NG101 Section: 1.15 Follow-up Text: Bone health 1.14.26 Offer a baseline dual-energy X-ray absorptiometry (DEXA) scan to assess bone mineral density in women with invasive breast cancer who are not receiving bisphosphonates as adjuvant therap"
+        },
+        {
+          "rank": 5,
+          "distance": 0.49563518166542053,
+          "source": "CG81",
+          "page": "30",
+          "section": "Metastases",
+          "document_preview": "Source: CG81 Section: 1.13 Metastases Text: Managing uncontrolled local disease and metastases 1.12 Uncontrolled local disease 1.12.1 Ensure all people presenting with uncontrolled local disease have: • their care needs assessed by a breast cancer mu"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "relevant",
+      "question": "What information should be discussed regarding the risks of bisphosphonate treatment?",
+      "minimum_distance": 0.4871762990951538,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.4871762990951538,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 2,
+          "distance": 0.5035204887390137,
+          "source": "NG101",
+          "page": "41",
+          "section": "Adjuvant bisphosphonate therapy",
+          "document_preview": "Source: NG101 Section: 1.12 Adjuvant bisphosphonate therapy Text: Category Endocrine therapy after breast-conserving surgery for women with ER-positive DCIS Fertility and family planning Effects on fertility and family planning as women should not be"
+        },
+        {
+          "rank": 3,
+          "distance": 0.5877518653869629,
+          "source": "CG81",
+          "page": "29",
+          "section": "Menopausal symptoms",
+          "document_preview": "Source: CG81 Section: 1.11 Menopausal symptoms Text: Managing treatment side effects and menopausal symptoms 1.9 Lymphoedema Recommendations in this section have been stood down as they have been superseded by the February 2025 update on lymphoedema "
+        },
+        {
+          "rank": 4,
+          "distance": 0.5936278700828552,
+          "source": "CG81",
+          "page": "30",
+          "section": "Uncontrolled local disease",
+          "document_preview": "Source: CG81 Section: 1.12 Uncontrolled local disease Text: Managing uncontrolled local disease and metastases 1.12 Uncontrolled local disease 1.12.1 Ensure all people presenting with uncontrolled local disease have: • their care needs assessed by a "
+        },
+        {
+          "rank": 5,
+          "distance": 0.6173123121261597,
+          "source": "CG81",
+          "page": "30",
+          "section": "Metastases",
+          "document_preview": "Source: CG81 Section: 1.13 Metastases Text: Managing uncontrolled local disease and metastases 1.12 Uncontrolled local disease 1.12.1 Ensure all people presenting with uncontrolled local disease have: • their care needs assessed by a breast cancer mu"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "relevant",
+      "question": "What are the recommendations for adjuvant endocrine therapy for ER-positive ductal carcinoma in situ?",
+      "minimum_distance": 0.39527255296707153,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.39527255296707153,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 2,
+          "distance": 0.41584646701812744,
+          "source": "NG101",
+          "page": "39",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an aromatase inhibitor (after 5 years of tamoxifen therapy) Side effects: These are common side effects experienced during additional years taking endocri"
+        },
+        {
+          "rank": 3,
+          "distance": 0.44677746295928955,
+          "source": "NG101",
+          "page": "32",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: as an option for adjuvant treatment of hormone receptor-positive, HER2-negative, node-positive early breast cancer at high risk of recurrence. For full de"
+        },
+        {
+          "rank": 4,
+          "distance": 0.44678810238838196,
+          "source": "NG101",
+          "page": "41",
+          "section": "Adjuvant bisphosphonate therapy",
+          "document_preview": "Source: NG101 Section: 1.12 Adjuvant bisphosphonate therapy Text: Category Endocrine therapy after breast-conserving surgery for women with ER-positive DCIS Fertility and family planning Effects on fertility and family planning as women should not be"
+        },
+        {
+          "rank": 5,
+          "distance": 0.47210097312927246,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "relevant",
+      "question": "What are the recommendations regarding ovarian function suppression with endocrine therapy?",
+      "minimum_distance": 0.37928688526153564,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.37928688526153564,
+          "source": "NG101",
+          "page": "32",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: as an option for adjuvant treatment of hormone receptor-positive, HER2-negative, node-positive early breast cancer at high risk of recurrence. For full de"
+        },
+        {
+          "rank": 2,
+          "distance": 0.3980982303619385,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4191160798072815,
+          "source": "NG101",
+          "page": "35",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: increased. These may include vaginal dryness, hot flushes, insomnia, depression symptoms, dyspareunia, fractures and osteoporosis. But they may vary in se"
+        },
+        {
+          "rank": 4,
+          "distance": 0.44985687732696533,
+          "source": "NG101",
+          "page": "40",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: an individual person will depend on the risk of their cancer returning. For people with low risk of recurrence, the benefits may not outweigh the risks or"
+        },
+        {
+          "rank": 5,
+          "distance": 0.45739981532096863,
+          "source": "NG101",
+          "page": "28",
+          "section": "Hormone receptor positive, HER2-negative breast cancer",
+          "document_preview": "Source: NG101 Section: 1.10 Hormone receptor positive, HER2-negative breast cancer Text: 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast cancer. Neoadjuvant tr"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "type": "out_of_scope",
+      "question": "What treatment does NICE recommend for pancreatic cancer?",
+      "minimum_distance": 0.5560094714164734,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.5560094714164734,
+          "source": "CG81",
+          "page": "19",
+          "section": "Choosing systemic anticancer therapy",
+          "document_preview": "Source: CG81 Section: 1.6 Choosing systemic anticancer therapy Text: platinum-containing chemotherapy regimens. How the recommendation might affect practice The recommendation reflects current good practice, but may help standardise it where localise"
+        },
+        {
+          "rank": 2,
+          "distance": 0.572456419467926,
+          "source": "CG81",
+          "page": "25",
+          "section": "Treatments by receptor subtype",
+          "document_preview": "Source: CG81 Section: 1.7 Treatments by receptor subtype Text: might affect practice The recommendation reflects current practice and is not expected to result in significant changes. Hormone-receptor-positive, HER2-negative advanced breast cancer 1."
+        },
+        {
+          "rank": 3,
+          "distance": 0.579278826713562,
+          "source": "CG81",
+          "page": "26",
+          "section": "Treatments by receptor subtype",
+          "document_preview": "Source: CG81 Section: 1.7 Treatments by receptor subtype Text: hormone-receptor-positive, HER2-negative advanced breast cancer 1.7.22 If chemotherapy is indicated for people with hormone-receptor-positive, HER2-negative advanced breast cancer, offer "
+        },
+        {
+          "rank": 4,
+          "distance": 0.5794772505760193,
+          "source": "NG101",
+          "page": "27",
+          "section": "HER2-positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.9 HER2-positive breast cancer Text: breast cancer: diagnosis and management (NG101) 1.10 Hormone receptor positive, HER2-negative breast cancer See also the section on endocrine therapy for hormone receptor positive breast ca"
+        },
+        {
+          "rank": 5,
+          "distance": 0.582148551940918,
+          "source": "NG101",
+          "page": "24",
+          "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+          "document_preview": "Source: NG101 Section: 1.8 Triple-negative (ER/PR/HER2-negative) breast cancer Text: prevention and management in people with cancer.) For a short explanation of why the committee made the 2025 recommendation and how it might affect practice, see the"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "type": "out_of_scope",
+      "question": "What are the symptoms and treatment options for lung cancer?",
+      "minimum_distance": 0.6754531264305115,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.6754531264305115,
+          "source": "CG81",
+          "page": "18",
+          "section": "Monitoring disease status",
+          "document_preview": "Source: CG81 Section: 1.5 Monitoring disease status Text: the cancer • the person's response to, and any side effects from, previous lines of therapy • the clinical benefits and potential side effects of any suitable SACT regimens, and how they are d"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6984889507293701,
+          "source": "CG81",
+          "page": "29",
+          "section": "Menopausal symptoms",
+          "document_preview": "Source: CG81 Section: 1.11 Menopausal symptoms Text: Managing treatment side effects and menopausal symptoms 1.9 Lymphoedema Recommendations in this section have been stood down as they have been superseded by the February 2025 update on lymphoedema "
+        },
+        {
+          "rank": 3,
+          "distance": 0.718041181564331,
+          "source": "NG101",
+          "page": "57",
+          "section": "Follow-up",
+          "document_preview": "Source: NG101 Section: 1.15 Follow-up Text: who have had or are being treated for breast cancer that a healthy lifestyle is associated with a lower risk of recurrence, and that this should include: • achieving and maintaining a healthy weight (see th"
+        },
+        {
+          "rank": 4,
+          "distance": 0.7204074263572693,
+          "source": "CG81",
+          "page": "29",
+          "section": "Cancer-related fatigue",
+          "document_preview": "Source: CG81 Section: 1.10 Cancer-related fatigue Text: Managing treatment side effects and menopausal symptoms 1.9 Lymphoedema Recommendations in this section have been stood down as they have been superseded by the February 2025 update on lymphoede"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7256788015365601,
+          "source": "NG101",
+          "page": "48",
+          "section": "Radiotherapy",
+          "document_preview": "Source: NG101 Section: 1.13 Radiotherapy Text: section on radiotherapy after neoadjuvant chemotherapy. Full details of the evidence and the committee's discussion are in evidence review J: neoadjuvant treatment of early and locally advanced breast ca"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "type": "out_of_scope",
+      "question": "What is the recommended treatment for diabetes?",
+      "minimum_distance": 0.6751220226287842,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.6751220226287842,
+          "source": "NG101",
+          "page": "57",
+          "section": "Follow-up",
+          "document_preview": "Source: NG101 Section: 1.15 Follow-up Text: who have had or are being treated for breast cancer that a healthy lifestyle is associated with a lower risk of recurrence, and that this should include: • achieving and maintaining a healthy weight (see th"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6775155663490295,
+          "source": "NG101",
+          "page": "50",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: and management (NG101) Lymphoedema education 1.14.7 Discuss the following topics with people with lymphoedema, and also provide them with information in a "
+        },
+        {
+          "rank": 3,
+          "distance": 0.6904945969581604,
+          "source": "CG81",
+          "page": "19",
+          "section": "Choosing systemic anticancer therapy",
+          "document_preview": "Source: CG81 Section: 1.6 Choosing systemic anticancer therapy Text: platinum-containing chemotherapy regimens. How the recommendation might affect practice The recommendation reflects current good practice, but may help standardise it where localise"
+        },
+        {
+          "rank": 4,
+          "distance": 0.693313479423523,
+          "source": "NG101",
+          "page": "49",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: • that there is no consistent evidence of increased risk of lymphoedema associated with medical procedures (for example, blood tests, injections, intraveno"
+        },
+        {
+          "rank": 5,
+          "distance": 0.6951420307159424,
+          "source": "CG81",
+          "page": "29",
+          "section": "Menopausal symptoms",
+          "document_preview": "Source: CG81 Section: 1.11 Menopausal symptoms Text: Managing treatment side effects and menopausal symptoms 1.9 Lymphoedema Recommendations in this section have been stood down as they have been superseded by the February 2025 update on lymphoedema "
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "type": "out_of_scope",
+      "question": "What antibiotics are recommended for pneumonia?",
+      "minimum_distance": 0.6766369342803955,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.6766369342803955,
+          "source": "CG81",
+          "page": "19",
+          "section": "Choosing systemic anticancer therapy",
+          "document_preview": "Source: CG81 Section: 1.6 Choosing systemic anticancer therapy Text: platinum-containing chemotherapy regimens. How the recommendation might affect practice The recommendation reflects current good practice, but may help standardise it where localise"
+        },
+        {
+          "rank": 2,
+          "distance": 0.7112576961517334,
+          "source": "CG81",
+          "page": "18",
+          "section": "Choosing systemic anticancer therapy",
+          "document_preview": "Source: CG81 Section: 1.6 Choosing systemic anticancer therapy Text: Systemic anticancer therapy 1.6 Choosing systemic anticancer therapy See also the visual summary of systemic anticancer therapy options and recommendation 1.2.1 in the section on ge"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7215219140052795,
+          "source": "CG81",
+          "page": "19",
+          "section": "Treatments by receptor subtype",
+          "document_preview": "Source: CG81 Section: 1.7 Treatments by receptor subtype Text: Why the committee made this recommendation The committee reviewed evidence about platinum-based chemotherapy regimens for people with triple-negative advanced breast cancer, and discussed"
+        },
+        {
+          "rank": 4,
+          "distance": 0.7312896251678467,
+          "source": "NG101",
+          "page": "21",
+          "section": "Systemic anticancer therapy for all receptor subtypes",
+          "document_preview": "Source: NG101 Section: 1.7 Systemic anticancer therapy for all receptor subtypes Text: to 12 weeks (3 to 4 cycles) 8 to 12 weeks 1.7.3 Ensure weekly and fortnightly paclitaxel is available locally, as it is better Early and locally advanced breast ca"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7479689121246338,
+          "source": "NG101",
+          "page": "24",
+          "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+          "document_preview": "Source: NG101 Section: 1.8 Triple-negative (ER/PR/HER2-negative) breast cancer Text: prevention and management in people with cancer.) For a short explanation of why the committee made the 2025 recommendation and how it might affect practice, see the"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "type": "out_of_scope",
+      "question": "What is the treatment for hypertension?",
+      "minimum_distance": 0.6966004967689514,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.6966004967689514,
+          "source": "NG101",
+          "page": "57",
+          "section": "Follow-up",
+          "document_preview": "Source: NG101 Section: 1.15 Follow-up Text: who have had or are being treated for breast cancer that a healthy lifestyle is associated with a lower risk of recurrence, and that this should include: • achieving and maintaining a healthy weight (see th"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6983522772789001,
+          "source": "NG101",
+          "page": "50",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: and management (NG101) Lymphoedema education 1.14.7 Discuss the following topics with people with lymphoedema, and also provide them with information in a "
+        },
+        {
+          "rank": 3,
+          "distance": 0.7073277235031128,
+          "source": "NG101",
+          "page": "49",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: • that there is no consistent evidence of increased risk of lymphoedema associated with medical procedures (for example, blood tests, injections, intraveno"
+        },
+        {
+          "rank": 4,
+          "distance": 0.7163821458816528,
+          "source": "NG101",
+          "page": "57",
+          "section": "Lifestyle",
+          "document_preview": "Source: NG101 Section: 1.16 Lifestyle Text: Clinical follow-up 1.15.4 Ensure all people who have had treatment for breast cancer have an agreed, written care plan, recorded in their notes by a named healthcare professional (or professionals) from the"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7166144847869873,
+          "source": "NG101",
+          "page": "55",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: history of breast cancer. See NICE's information on prescribing medicines. 1.14.24 Consider selective serotonin reuptake inhibitor (SSRI) antidepressants f"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "type": "out_of_scope",
+      "question": "How is Alzheimer's disease treated?",
+      "minimum_distance": 0.7588253617286682,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.7588253617286682,
+          "source": "CG81",
+          "page": "18",
+          "section": "Monitoring disease status",
+          "document_preview": "Source: CG81 Section: 1.5 Monitoring disease status Text: the cancer • the person's response to, and any side effects from, previous lines of therapy • the clinical benefits and potential side effects of any suitable SACT regimens, and how they are d"
+        },
+        {
+          "rank": 2,
+          "distance": 0.763738751411438,
+          "source": "CG81",
+          "page": "30",
+          "section": "Metastases",
+          "document_preview": "Source: CG81 Section: 1.13 Metastases Text: Managing uncontrolled local disease and metastases 1.12 Uncontrolled local disease 1.12.1 Ensure all people presenting with uncontrolled local disease have: • their care needs assessed by a breast cancer mu"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7677339315414429,
+          "source": "CG81",
+          "page": "30",
+          "section": "Uncontrolled local disease",
+          "document_preview": "Source: CG81 Section: 1.12 Uncontrolled local disease Text: Managing uncontrolled local disease and metastases 1.12 Uncontrolled local disease 1.12.1 Ensure all people presenting with uncontrolled local disease have: • their care needs assessed by a "
+        },
+        {
+          "rank": 4,
+          "distance": 0.7699167132377625,
+          "source": "NG101",
+          "page": "55",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: history of breast cancer. See NICE's information on prescribing medicines. 1.14.24 Consider selective serotonin reuptake inhibitor (SSRI) antidepressants f"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7770979404449463,
+          "source": "CG81",
+          "page": "29",
+          "section": "Menopausal symptoms",
+          "document_preview": "Source: CG81 Section: 1.11 Menopausal symptoms Text: Managing treatment side effects and menopausal symptoms 1.9 Lymphoedema Recommendations in this section have been stood down as they have been superseded by the February 2025 update on lymphoedema "
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "type": "out_of_scope",
+      "question": "What treatment is recommended for prostate cancer?",
+      "minimum_distance": 0.6207607984542847,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.6207607984542847,
+          "source": "CG81",
+          "page": "19",
+          "section": "Choosing systemic anticancer therapy",
+          "document_preview": "Source: CG81 Section: 1.6 Choosing systemic anticancer therapy Text: platinum-containing chemotherapy regimens. How the recommendation might affect practice The recommendation reflects current good practice, but may help standardise it where localise"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6339003443717957,
+          "source": "NG101",
+          "page": "8",
+          "section": "Providing information and psychological support",
+          "document_preview": "Source: NG101 Section: 1.1 Providing information and psychological support Text: and other studies. [2018] 1.1.5 For guidance on fertility preservation, see the recommendations on people with cancer who wish to preserve fertility in the NICE guidelin"
+        },
+        {
+          "rank": 3,
+          "distance": 0.6358445882797241,
+          "source": "NG101",
+          "page": "36",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: organs. [2025] In March 2025, this was an off-label use for testicular function suppression and aromatase inhibitors. See NICE's information on prescribin"
+        },
+        {
+          "rank": 4,
+          "distance": 0.6374562978744507,
+          "source": "NG101",
+          "page": "12",
+          "section": "Surgery to the breast and axilla",
+          "document_preview": "Source: NG101 Section: 1.4 Surgery to the breast and axilla Text: if they have: • no evidence of lymph node involvement on ultrasound or • a negative ultrasound-guided needle biopsy. [2009, amended 2023] 1.4.10 Perform SLNB using the dual technique w"
+        },
+        {
+          "rank": 5,
+          "distance": 0.638009786605835,
+          "source": "NG101",
+          "page": "8",
+          "section": "Pretreatment assessment",
+          "document_preview": "Source: NG101 Section: 1.2 Pretreatment assessment Text: 1.1.2 Offer all people with breast cancer prompt access to specialist psychological support and, where appropriate, psychiatric services. [2009] 1.1.3 For information about identifying, treatin"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "type": "out_of_scope",
+      "question": "What is the treatment for a broken leg?",
+      "minimum_distance": 0.6757262945175171,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.6757262945175171,
+          "source": "CG81",
+          "page": "30",
+          "section": "Metastases",
+          "document_preview": "Source: CG81 Section: 1.13 Metastases Text: Managing uncontrolled local disease and metastases 1.12 Uncontrolled local disease 1.12.1 Ensure all people presenting with uncontrolled local disease have: • their care needs assessed by a breast cancer mu"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6900409460067749,
+          "source": "CG81",
+          "page": "30",
+          "section": "Uncontrolled local disease",
+          "document_preview": "Source: CG81 Section: 1.12 Uncontrolled local disease Text: Managing uncontrolled local disease and metastases 1.12 Uncontrolled local disease 1.12.1 Ensure all people presenting with uncontrolled local disease have: • their care needs assessed by a "
+        },
+        {
+          "rank": 3,
+          "distance": 0.7056441307067871,
+          "source": "NG101",
+          "page": "50",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: and management (NG101) Lymphoedema education 1.14.7 Discuss the following topics with people with lymphoedema, and also provide them with information in a "
+        },
+        {
+          "rank": 4,
+          "distance": 0.720200777053833,
+          "source": "CG81",
+          "page": "31",
+          "section": "Palliative and end of life care",
+          "document_preview": "Source: CG81 Section: 1.14 Palliative and end of life care Text: otherwise be prescribed. For full details, see the NICE's technology appraisal guidance on denosumab (TA265, 2012). 1.13.3 Use external beam radiotherapy in a single fraction of 8 Gy to"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7241640090942383,
+          "source": "CG81",
+          "page": "29",
+          "section": "Menopausal symptoms",
+          "document_preview": "Source: CG81 Section: 1.11 Menopausal symptoms Text: Managing treatment side effects and menopausal symptoms 1.9 Lymphoedema Recommendations in this section have been stood down as they have been superseded by the February 2025 update on lymphoedema "
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "type": "out_of_scope",
+      "question": "What medication should be used for migraine?",
+      "minimum_distance": 0.7196404337882996,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.7196404337882996,
+          "source": "NG101",
+          "page": "55",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: history of breast cancer. See NICE's information on prescribing medicines. 1.14.24 Consider selective serotonin reuptake inhibitor (SSRI) antidepressants f"
+        },
+        {
+          "rank": 2,
+          "distance": 0.7769359350204468,
+          "source": "NG101",
+          "page": "50",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: and management (NG101) Lymphoedema education 1.14.7 Discuss the following topics with people with lymphoedema, and also provide them with information in a "
+        },
+        {
+          "rank": 3,
+          "distance": 0.7772009968757629,
+          "source": "CG81",
+          "page": "28",
+          "section": "Treatments by receptor subtype",
+          "document_preview": "Source: CG81 Section: 1.7 Treatments by receptor subtype Text: • eribulin (TA515, March 2018) after only 1 chemotherapy regimen • fulvestrant (TA503, January 2018) for untreated oestrogen-receptor-positive breast cancer • bevacizumab with capecitabin"
+        },
+        {
+          "rank": 4,
+          "distance": 0.777525007724762,
+          "source": "NG101",
+          "page": "32",
+          "section": "Endocrine therapy for hormone receptor positive breast cancer",
+          "document_preview": "Source: NG101 Section: 1.11 Endocrine therapy for hormone receptor positive breast cancer Text: as an option for adjuvant treatment of hormone receptor-positive, HER2-negative, node-positive early breast cancer at high risk of recurrence. For full de"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7801520824432373,
+          "source": "CG81",
+          "page": "28",
+          "section": "Treatments not recommended",
+          "document_preview": "Source: CG81 Section: 1.8 Treatments not recommended Text: How the recommendation might affect practice The recommendation reflects current practice and is not expected to result in significant changes. Neurotrophic tyrosine receptor kinase (NTRK) fu"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "type": "out_of_scope",
+      "question": "What is the recommended treatment for appendicitis?",
+      "minimum_distance": 0.7132773399353027,
+      "top_k": [
+        {
+          "rank": 1,
+          "distance": 0.7132773399353027,
+          "source": "NG101",
+          "page": "10",
+          "section": "Assessment of tumour profile and genetic testing",
+          "document_preview": "Source: NG101 Section: 1.3 Assessment of tumour profile and genetic testing Text: nipple–areolar complex as an alternative to mastectomy for people with Paget's disease of the nipple that has been assessed as localised. Offer oncoplastic repair techn"
+        },
+        {
+          "rank": 2,
+          "distance": 0.713973879814148,
+          "source": "NG101",
+          "page": "50",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: and management (NG101) Lymphoedema education 1.14.7 Discuss the following topics with people with lymphoedema, and also provide them with information in a "
+        },
+        {
+          "rank": 3,
+          "distance": 0.7206864356994629,
+          "source": "NG101",
+          "page": "12",
+          "section": "Surgery to the breast and axilla",
+          "document_preview": "Source: NG101 Section: 1.4 Surgery to the breast and axilla Text: if they have: • no evidence of lymph node involvement on ultrasound or • a negative ultrasound-guided needle biopsy. [2009, amended 2023] 1.4.10 Perform SLNB using the dual technique w"
+        },
+        {
+          "rank": 4,
+          "distance": 0.735519289970398,
+          "source": "NG101",
+          "page": "10",
+          "section": "Surgery to the breast and axilla",
+          "document_preview": "Source: NG101 Section: 1.4 Surgery to the breast and axilla Text: For a short explanation of why the committee made the 2018 recommendations and how they might affect practice, see the rationale and impact section on predictive factors. Full details "
+        },
+        {
+          "rank": 5,
+          "distance": 0.7452803254127502,
+          "source": "NG101",
+          "page": "48",
+          "section": "Management of treatment side effects and menopausal symptoms",
+          "document_preview": "Source: NG101 Section: 1.14 Management of treatment side effects and menopausal symptoms Text: Radiotherapy after neoadjuvant chemotherapy 1.13.25 Offer local treatment with mastectomy (or, in exceptional cases, breast- conserving surgery) followed b"
+        }
+      ]
+    }
+  ],
+  "threshold_evaluations": [
+    {
+      "threshold": 0.3,
+      "tp": 0,
+      "fp": 0,
+      "tn": 10,
+      "fn": 15,
+      "accuracy": 0.4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 1.0
+    },
+    {
+      "threshold": 0.32,
+      "tp": 2,
+      "fp": 0,
+      "tn": 10,
+      "fn": 13,
+      "accuracy": 0.48,
+      "precision": 1.0,
+      "recall": 0.13333333333333333,
+      "specificity": 1.0,
+      "f1": 0.23529411764705882,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.8666666666666667
+    },
+    {
+      "threshold": 0.34,
+      "tp": 4,
+      "fp": 0,
+      "tn": 10,
+      "fn": 11,
+      "accuracy": 0.56,
+      "precision": 1.0,
+      "recall": 0.26666666666666666,
+      "specificity": 1.0,
+      "f1": 0.4210526315789474,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.7333333333333333
+    },
+    {
+      "threshold": 0.36,
+      "tp": 7,
+      "fp": 0,
+      "tn": 10,
+      "fn": 8,
+      "accuracy": 0.68,
+      "precision": 1.0,
+      "recall": 0.4666666666666667,
+      "specificity": 1.0,
+      "f1": 0.6363636363636364,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.5333333333333333
+    },
+    {
+      "threshold": 0.38,
+      "tp": 9,
+      "fp": 0,
+      "tn": 10,
+      "fn": 6,
+      "accuracy": 0.76,
+      "precision": 1.0,
+      "recall": 0.6,
+      "specificity": 1.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.4
+    },
+    {
+      "threshold": 0.4,
+      "tp": 13,
+      "fp": 0,
+      "tn": 10,
+      "fn": 2,
+      "accuracy": 0.92,
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "specificity": 1.0,
+      "f1": 0.9285714285714286,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.13333333333333333
+    },
+    {
+      "threshold": 0.42,
+      "tp": 14,
+      "fp": 0,
+      "tn": 10,
+      "fn": 1,
+      "accuracy": 0.96,
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "specificity": 1.0,
+      "f1": 0.9655172413793104,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.06666666666666667
+    },
+    {
+      "threshold": 0.44,
+      "tp": 14,
+      "fp": 0,
+      "tn": 10,
+      "fn": 1,
+      "accuracy": 0.96,
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "specificity": 1.0,
+      "f1": 0.9655172413793104,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.06666666666666667
+    },
+    {
+      "threshold": 0.46,
+      "tp": 14,
+      "fp": 0,
+      "tn": 10,
+      "fn": 1,
+      "accuracy": 0.96,
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "specificity": 1.0,
+      "f1": 0.9655172413793104,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.06666666666666667
+    },
+    {
+      "threshold": 0.48,
+      "tp": 14,
+      "fp": 0,
+      "tn": 10,
+      "fn": 1,
+      "accuracy": 0.96,
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "specificity": 1.0,
+      "f1": 0.9655172413793104,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.06666666666666667
+    },
+    {
+      "threshold": 0.5,
+      "tp": 15,
+      "fp": 0,
+      "tn": 10,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.52,
+      "tp": 15,
+      "fp": 0,
+      "tn": 10,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.54,
+      "tp": 15,
+      "fp": 0,
+      "tn": 10,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.56,
+      "tp": 15,
+      "fp": 1,
+      "tn": 9,
+      "fn": 0,
+      "accuracy": 0.96,
+      "precision": 0.9375,
+      "recall": 1.0,
+      "specificity": 0.9,
+      "f1": 0.967741935483871,
+      "false_positive_rate": 0.1,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.58,
+      "tp": 15,
+      "fp": 1,
+      "tn": 9,
+      "fn": 0,
+      "accuracy": 0.96,
+      "precision": 0.9375,
+      "recall": 1.0,
+      "specificity": 0.9,
+      "f1": 0.967741935483871,
+      "false_positive_rate": 0.1,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.6,
+      "tp": 15,
+      "fp": 1,
+      "tn": 9,
+      "fn": 0,
+      "accuracy": 0.96,
+      "precision": 0.9375,
+      "recall": 1.0,
+      "specificity": 0.9,
+      "f1": 0.967741935483871,
+      "false_positive_rate": 0.1,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.62,
+      "tp": 15,
+      "fp": 1,
+      "tn": 9,
+      "fn": 0,
+      "accuracy": 0.96,
+      "precision": 0.9375,
+      "recall": 1.0,
+      "specificity": 0.9,
+      "f1": 0.967741935483871,
+      "false_positive_rate": 0.1,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.64,
+      "tp": 15,
+      "fp": 2,
+      "tn": 8,
+      "fn": 0,
+      "accuracy": 0.92,
+      "precision": 0.8823529411764706,
+      "recall": 1.0,
+      "specificity": 0.8,
+      "f1": 0.9375,
+      "false_positive_rate": 0.2,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.66,
+      "tp": 15,
+      "fp": 2,
+      "tn": 8,
+      "fn": 0,
+      "accuracy": 0.92,
+      "precision": 0.8823529411764706,
+      "recall": 1.0,
+      "specificity": 0.8,
+      "f1": 0.9375,
+      "false_positive_rate": 0.2,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.68,
+      "tp": 15,
+      "fp": 6,
+      "tn": 4,
+      "fn": 0,
+      "accuracy": 0.76,
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "specificity": 0.4,
+      "f1": 0.8333333333333333,
+      "false_positive_rate": 0.6,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.7,
+      "tp": 15,
+      "fp": 7,
+      "tn": 3,
+      "fn": 0,
+      "accuracy": 0.72,
+      "precision": 0.6818181818181818,
+      "recall": 1.0,
+      "specificity": 0.3,
+      "f1": 0.8108108108108109,
+      "false_positive_rate": 0.7,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.72,
+      "tp": 15,
+      "fp": 9,
+      "tn": 1,
+      "fn": 0,
+      "accuracy": 0.64,
+      "precision": 0.625,
+      "recall": 1.0,
+      "specificity": 0.1,
+      "f1": 0.7692307692307693,
+      "false_positive_rate": 0.9,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.74,
+      "tp": 15,
+      "fp": 9,
+      "tn": 1,
+      "fn": 0,
+      "accuracy": 0.64,
+      "precision": 0.625,
+      "recall": 1.0,
+      "specificity": 0.1,
+      "f1": 0.7692307692307693,
+      "false_positive_rate": 0.9,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.76,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.78,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.82,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.84,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.86,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.88,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.92,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.94,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.96,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 0.98,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 1.0,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 1.02,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 1.04,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 1.06,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 1.08,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    },
+    {
+      "threshold": 1.1,
+      "tp": 15,
+      "fp": 10,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.7499999999999999,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0
+    }
+  ]
+}

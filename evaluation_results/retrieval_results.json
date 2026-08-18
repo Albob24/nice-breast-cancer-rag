@@ -1,0 +1,4540 @@
+[
+  {
+    "experiment": "A",
+    "database": "E:\\nice-breast-cancer-rag\\nice_breast_cancer_db_A",
+    "collection": "breast_cancer_guidelines_A",
+    "total_questions": 20,
+    "relevant_questions": 19,
+    "out_of_scope_questions": 1,
+    "hit_at_1": 0.6842105263157895,
+    "hit_at_5": 1.0,
+    "hit_at_10": 1.0,
+    "mrr": 0.8131578947368421,
+    "average_best_distance": 0.3929221677152734,
+    "guardrail_accuracy": 0.0,
+    "questions": [
+      {
+        "question_id": 1,
+        "question": "What endocrine therapy is recommended for postmenopausal women with ER-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.8"
+        },
+        "ground_truth_ranks": [
+          5
+        ],
+        "best_rank": 5,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.2,
+        "best_distance": 0.42684656381607056,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3930355906486511,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.39473533630371094,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4197307825088501,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4213092029094696,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.42684656381607056,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.43414875864982605,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4387584626674652,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 8,
+            "distance": 0.4522790014743805,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.45393919944763184,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 10,
+            "distance": 0.4574686288833618,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 2,
+        "question": "What endocrine therapy options should be discussed with premenopausal or perimenopausal people with ER-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.7"
+        },
+        "ground_truth_ranks": [
+          1
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.3092086613178253,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3092086613178253,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.35146453976631165,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.3592017889022827,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.3622797727584839,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.3632376790046692,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 6,
+            "distance": 0.36762863397598267,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.37099841237068176,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.37213239073753357,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4100280702114105,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.4194033443927765,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          }
+        ]
+      },
+      {
+        "question_id": 3,
+        "question": "What endocrine therapy is recommended for people with male reproductive organs who have ER-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.9"
+        },
+        "ground_truth_ranks": [
+          2
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.37465205788612366,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3276676833629608,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.37465205788612366,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.41753512620925903,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4648195207118988,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4815306067466736,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.49233606457710266,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4976866841316223,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5005286931991577,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5077829957008362,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5189716219902039,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          }
+        ]
+      },
+      {
+        "question_id": 4,
+        "question": "When should extended endocrine therapy with an aromatase inhibitor be offered after tamoxifen?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.15"
+        },
+        "ground_truth_ranks": [
+          4
+        ],
+        "best_rank": 4,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.25,
+        "best_distance": 0.415667861700058,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3499559760093689,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4126312732696533,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4145839810371399,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.415667861700058,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4248151481151581,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4294147491455078,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4378129839897156,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.4462583065032959,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4863758087158203,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "25",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.48896074295043945,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          }
+        ]
+      },
+      {
+        "question_id": 5,
+        "question": "What is recommended for extended tamoxifen therapy beyond 5 years?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.17"
+        },
+        "ground_truth_ranks": [
+          1
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.38443630933761597,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.38443630933761597,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.43634259700775146,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.47315460443496704,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.48305046558380127,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 5,
+            "distance": 0.48738381266593933,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4920467734336853,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.49404215812683105,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5070644617080688,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5103789567947388,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.526513934135437,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          }
+        ]
+      },
+      {
+        "question_id": 6,
+        "question": "When should neoadjuvant endocrine therapy be considered?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.1"
+        },
+        "ground_truth_ranks": [
+          2,
+          3,
+          10
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.4055325984954834,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4023360013961792,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4055325984954834,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.41019707918167114,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4336041510105133,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4456392824649811,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4539303183555603,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 7,
+            "distance": 0.47071754932403564,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Radiotherapy",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 8,
+            "distance": 0.47116369009017944,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4770936667919159,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 10,
+            "distance": 0.4849873483181,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 7,
+        "question": "What does NICE recommend for premenopausal women regarding neoadjuvant chemotherapy versus neoadjuvant endocrine therapy?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.2"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.33640748262405396,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.33640748262405396,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 2,
+            "distance": 0.3511163294315338,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.38012170791625977,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 4,
+            "distance": 0.3879817724227905,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 5,
+            "distance": 0.3948971927165985,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4356769323348999,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4357961416244507,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 8,
+            "distance": 0.4460557997226715,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "24",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 9,
+            "distance": 0.45418816804885864,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "19",
+            "section": "Systemic anticancer therapy planning",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 10,
+            "distance": 0.4587029814720154,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "25",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          }
+        ]
+      },
+      {
+        "question_id": 8,
+        "question": "What are the recommendations for HER2-positive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "HER2-positive breast cancer"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.3480246663093567,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3480246663093567,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 2,
+            "distance": 0.3907727003097534,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "26",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 3,
+            "distance": 0.3912521004676819,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "23",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 4,
+            "distance": 0.39916253089904785,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 5,
+            "distance": 0.41731196641921997,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "9",
+            "section": "Pretreatment assessment",
+            "recommendation": "1.2"
+          },
+          {
+            "rank": 6,
+            "distance": 0.43327879905700684,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "24",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 7,
+            "distance": 0.43530502915382385,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "22",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 8,
+            "distance": 0.44663915038108826,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Choosing systemic anticancer therapy",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 9,
+            "distance": 0.45239973068237305,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "25",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.4541289508342743,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          }
+        ]
+      },
+      {
+        "question_id": 9,
+        "question": "What treatment is recommended for triple-negative breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Triple-negative"
+          ]
+        },
+        "ground_truth_ranks": [
+          2,
+          3,
+          7,
+          9,
+          10
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.41894829273223877,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.39893025159835815,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Choosing systemic anticancer therapy",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 2,
+            "distance": 0.41894829273223877,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "22",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 3,
+            "distance": 0.42286184430122375,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "21",
+            "section": "Systemic anticancer therapy for all receptor subtypes",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 4,
+            "distance": 0.43285393714904785,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "20",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 5,
+            "distance": 0.43357330560684204,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 6,
+            "distance": 0.43663400411605835,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "22",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 7,
+            "distance": 0.45015567541122437,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "24",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 8,
+            "distance": 0.485714316368103,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "18",
+            "section": "Choosing systemic anticancer therapy",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4970008432865143,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 10,
+            "distance": 0.4990673065185547,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          }
+        ]
+      },
+      {
+        "question_id": 10,
+        "question": "What is recommended for HER2-negative high-risk early breast cancer with germline BRCA1 or BRCA2 mutations?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.8.3"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.3648557960987091,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3648557960987091,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "24",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 2,
+            "distance": 0.37940293550491333,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4018399119377136,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4144904315471649,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 5,
+            "distance": 0.42866575717926025,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4405873417854309,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4513354003429413,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 8,
+            "distance": 0.46066123247146606,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "20",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4678015112876892,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "22",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.46831172704696655,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "22",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          }
+        ]
+      },
+      {
+        "question_id": 11,
+        "question": "What is recommended for adjuvant bisphosphonate therapy in postmenopausal women with node-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.12.1"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.30767622590065,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.30767622590065,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 2,
+            "distance": 0.3729186952114105,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4586695730686188,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "42",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 4,
+            "distance": 0.47496217489242554,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 5,
+            "distance": 0.48464667797088623,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4963786005973816,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.49748775362968445,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5019247531890869,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Metastases",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 9,
+            "distance": 0.505488395690918,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5136523246765137,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          }
+        ]
+      },
+      {
+        "question_id": 12,
+        "question": "When should bisphosphonates be considered for node-negative invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.12.2"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.34826987981796265,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.34826987981796265,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 2,
+            "distance": 0.38098663091659546,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4689987301826477,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "42",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 4,
+            "distance": 0.49333733320236206,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 5,
+            "distance": 0.49563518166542053,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Metastases",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 6,
+            "distance": 0.49805909395217896,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5055502653121948,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5105982422828674,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5127426385879517,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5221961736679077,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          }
+        ]
+      },
+      {
+        "question_id": 13,
+        "question": "What information should be discussed regarding the risks of bisphosphonate treatment?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.12.3"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.4871762990951538,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4871762990951538,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.5035204887390137,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5877518653869629,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5936278700828552,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 5,
+            "distance": 0.6173123121261597,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Metastases",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 6,
+            "distance": 0.6377578973770142,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 7,
+            "distance": 0.6515535712242126,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6519197821617126,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Radiotherapy",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 9,
+            "distance": 0.6539449095726013,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "18",
+            "section": "Monitoring disease status",
+            "recommendation": "1.5"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6552942395210266,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 14,
+        "question": "What are the recommendations for adjuvant endocrine therapy for ER-positive ductal carcinoma in situ?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.18"
+        },
+        "ground_truth_ranks": [
+          2
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.41584646701812744,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.39527255296707153,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.41584646701812744,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.44677746295928955,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.44678810238838196,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 5,
+            "distance": 0.47210097312927246,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.48388606309890747,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.48816338181495667,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 8,
+            "distance": 0.4902452230453491,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5006433129310608,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5019884705543518,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 15,
+        "question": "What are the recommendations regarding ovarian function suppression with endocrine therapy?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.7"
+        },
+        "ground_truth_ranks": [
+          1
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.37928688526153564,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.37928688526153564,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.3980982303619385,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4191160798072815,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.44985687732696533,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.45739981532096863,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4749937057495117,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "33",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.475704550743103,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.48079055547714233,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "8",
+            "section": "Pretreatment assessment",
+            "recommendation": "1.2"
+          },
+          {
+            "rank": 9,
+            "distance": 0.48155713081359863,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.48319217562675476,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          }
+        ]
+      },
+      {
+        "question_id": 16,
+        "question": "What is recommended regarding bone mineral density when starting testicular function suppression with an aromatase inhibitor?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.13"
+        },
+        "ground_truth_ranks": [
+          1
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.42680999636650085,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.42680999636650085,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.5016242861747742,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5742661952972412,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5822569131851196,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 5,
+            "distance": 0.5848116874694824,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5913405418395996,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 7,
+            "distance": 0.600506067276001,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6061702966690063,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.6141059994697571,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6310989856719971,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "15",
+            "section": "Pathological assessment and genetic testing",
+            "recommendation": "1.4"
+          }
+        ]
+      },
+      {
+        "question_id": 17,
+        "question": "What factors are considered when deciding on extended endocrine therapy?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Extended endocrine therapy"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          3,
+          4
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.3949568569660187,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3949568569660187,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4401191473007202,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4414810538291931,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.44363734126091003,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4650910496711731,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4736188054084778,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.485466331243515,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5108717083930969,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.517195463180542,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5263493061065674,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "43",
+            "section": "Radiotherapy",
+            "recommendation": "1.13"
+          }
+        ]
+      },
+      {
+        "question_id": 18,
+        "question": "What side effects are associated with aromatase inhibitors?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Endocrine therapy"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.44577786326408386,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.44577786326408386,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4564170837402344,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4577130079269409,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4861903786659241,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.5161334276199341,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5330674648284912,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "33",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5595290064811707,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5775061249732971,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.6044915318489075,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6269062757492065,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "54",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          }
+        ]
+      },
+      {
+        "question_id": 19,
+        "question": "What are the main side effects associated with tamoxifen?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Endocrine therapy"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.47514042258262634,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.47514042258262634,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "30",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.5084363222122192,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5096844434738159,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "39",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5241587162017822,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "35",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.549959659576416,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "33",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5801972150802612,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5863726139068604,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "37",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6126134991645813,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "32",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.6257131099700928,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "19",
+            "section": "Systemic anticancer therapy for all receptor subtypes",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6351496577262878,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 20,
+        "question": "What treatment does NICE recommend for pancreatic cancer?",
+        "expected_relevant": false,
+        "ground_truth": {},
+        "ground_truth_ranks": [],
+        "best_rank": null,
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "hit_at_10": false,
+        "reciprocal_rank": 0.0,
+        "best_distance": null,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.5560094714164734,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Choosing systemic anticancer therapy",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 2,
+            "distance": 0.572456419467926,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "25",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 3,
+            "distance": 0.579278826713562,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "26",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5794772505760193,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 5,
+            "distance": 0.582148551940918,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "24",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5848203897476196,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "18",
+            "section": "Choosing systemic anticancer therapy",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5876952409744263,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5880090594291687,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5884824395179749,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5962406992912292,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "B",
+    "database": "E:\\nice-breast-cancer-rag\\nice_breast_cancer_db_B",
+    "collection": "breast_cancer_guidelines_B",
+    "total_questions": 20,
+    "relevant_questions": 19,
+    "out_of_scope_questions": 1,
+    "hit_at_1": 0.631578947368421,
+    "hit_at_5": 0.9473684210526315,
+    "hit_at_10": 1.0,
+    "mrr": 0.7982456140350876,
+    "average_best_distance": 0.4101357961955823,
+    "guardrail_accuracy": 0.0,
+    "questions": [
+      {
+        "question_id": 1,
+        "question": "What endocrine therapy is recommended for postmenopausal women with ER-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.8"
+        },
+        "ground_truth_ranks": [
+          6
+        ],
+        "best_rank": 6,
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.16666666666666666,
+        "best_distance": 0.45133253931999207,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.40612390637397766,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.41911500692367554,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4197307825088501,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.42717307806015015,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.44389402866363525,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 6,
+            "distance": 0.45133253931999207,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.46431973576545715,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 8,
+            "distance": 0.466295063495636,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5144205689430237,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "23",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5234325528144836,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "50",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          }
+        ]
+      },
+      {
+        "question_id": 2,
+        "question": "What endocrine therapy options should be discussed with premenopausal or perimenopausal people with ER-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.7"
+        },
+        "ground_truth_ranks": [
+          1
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.33643752336502075,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.33643752336502075,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.35569629073143005,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.36762863397598267,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.3725787401199341,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.37456586956977844,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.3787188231945038,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 7,
+            "distance": 0.37885117530822754,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.43069297075271606,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 9,
+            "distance": 0.45143482089042664,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "18",
+            "section": "Breast reconstruction",
+            "recommendation": "1.5"
+          },
+          {
+            "rank": 10,
+            "distance": 0.45494726300239563,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "19",
+            "section": "Systemic anticancer therapy for all receptor subtypes",
+            "recommendation": "1.7"
+          }
+        ]
+      },
+      {
+        "question_id": 3,
+        "question": "What endocrine therapy is recommended for people with male reproductive organs who have ER-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.9"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.30424222350120544,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.30424222350120544,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4440153241157532,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.44636666774749756,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4801750183105469,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.5061929821968079,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5077829957008362,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5080745816230774,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5305616855621338,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5357276201248169,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 10,
+            "distance": 0.552514374256134,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "9",
+            "section": "Assessment of tumour profile and genetic testing",
+            "recommendation": "1.3"
+          }
+        ]
+      },
+      {
+        "question_id": 4,
+        "question": "When should extended endocrine therapy with an aromatase inhibitor be offered after tamoxifen?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.15"
+        },
+        "ground_truth_ranks": [
+          2
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.4056101441383362,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4027665853500366,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4056101441383362,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4145839810371399,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4296642541885376,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.45410600304603577,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.45532160997390747,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5117707848548889,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5146503448486328,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 9,
+            "distance": 0.516681432723999,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 10,
+            "distance": 0.521824836730957,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "50",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          }
+        ]
+      },
+      {
+        "question_id": 5,
+        "question": "What is recommended for extended tamoxifen therapy beyond 5 years?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.17"
+        },
+        "ground_truth_ranks": [
+          2
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.44737330079078674,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4221116006374359,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.44737330079078674,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.47315460443496704,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4876652956008911,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 5,
+            "distance": 0.49164772033691406,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5019627213478088,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 7,
+            "distance": 0.527364194393158,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5320411324501038,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5630001425743103,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "52",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5697436928749084,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 6,
+        "question": "When should neoadjuvant endocrine therapy be considered?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.1"
+        },
+        "ground_truth_ranks": [
+          1,
+          2,
+          8
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.41020283102989197,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.41020283102989197,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 2,
+            "distance": 0.42727771401405334,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4368012845516205,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4561101198196411,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4677143394947052,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Radiotherapy",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 6,
+            "distance": 0.48095476627349854,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "9",
+            "section": "Assessment of tumour profile and genetic testing",
+            "recommendation": "1.3"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4849240481853485,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 8,
+            "distance": 0.4909787178039551,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4944356679916382,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5022683143615723,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 7,
+        "question": "What does NICE recommend for premenopausal women regarding neoadjuvant chemotherapy versus neoadjuvant endocrine therapy?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.2"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.33791452646255493,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.33791452646255493,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 2,
+            "distance": 0.3633401691913605,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.39619624614715576,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4273318648338318,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4499136209487915,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4676761031150818,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Radiotherapy",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4705214500427246,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "23",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 8,
+            "distance": 0.4725912809371948,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "26",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4726981818675995,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 10,
+            "distance": 0.47313249111175537,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "8",
+            "section": "Pretreatment assessment",
+            "recommendation": "1.2"
+          }
+        ]
+      },
+      {
+        "question_id": 8,
+        "question": "What are the recommendations for HER2-positive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "HER2-positive breast cancer"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          4
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.3637997508049011,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3637997508049011,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4194245934486389,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "23",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 3,
+            "distance": 0.421867698431015,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "21",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4347904622554779,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4544139802455902,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "9",
+            "section": "Assessment of tumour profile and genetic testing",
+            "recommendation": "1.3"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4548494517803192,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 7,
+            "distance": 0.4599216878414154,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "8",
+            "section": "Pretreatment assessment",
+            "recommendation": "1.2"
+          },
+          {
+            "rank": 8,
+            "distance": 0.47886550426483154,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "26",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 9,
+            "distance": 0.4794902205467224,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "18",
+            "section": "Breast reconstruction",
+            "recommendation": "1.5"
+          },
+          {
+            "rank": 10,
+            "distance": 0.49004238843917847,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          }
+        ]
+      },
+      {
+        "question_id": 9,
+        "question": "What treatment is recommended for triple-negative breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Triple-negative"
+          ]
+        },
+        "ground_truth_ranks": [
+          2,
+          4,
+          6,
+          7,
+          9,
+          10
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.4295656979084015,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.41040122509002686,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4295656979084015,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "22",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4466240406036377,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "21",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4597947597503662,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "21",
+            "section": "Systemic anticancer therapy for all receptor subtypes",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 5,
+            "distance": 0.47092050313949585,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "18",
+            "section": "Choosing systemic anticancer therapy",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4763844311237335,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "24",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5080465078353882,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5112338066101074,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5200652480125427,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5223603248596191,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "58",
+            "section": "Locally advanced unresectable disease",
+            "recommendation": "1.17"
+          }
+        ]
+      },
+      {
+        "question_id": 10,
+        "question": "What is recommended for HER2-negative high-risk early breast cancer with germline BRCA1 or BRCA2 mutations?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.8.3"
+        },
+        "ground_truth_ranks": [
+          2,
+          5
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.4249240756034851,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.38947656750679016,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4249240756034851,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "25",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4266244173049927,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.43669816851615906,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 5,
+            "distance": 0.44060301780700684,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "24",
+            "section": "Triple-negative (ER/PR/HER2-negative) breast cancer",
+            "recommendation": "1.8"
+          },
+          {
+            "rank": 6,
+            "distance": 0.44488024711608887,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "21",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 7,
+            "distance": 0.45568597316741943,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "27",
+            "section": "HER2-positive breast cancer",
+            "recommendation": "1.9"
+          },
+          {
+            "rank": 8,
+            "distance": 0.46481025218963623,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 9,
+            "distance": 0.47122734785079956,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "9",
+            "section": "Assessment of tumour profile and genetic testing",
+            "recommendation": "1.3"
+          },
+          {
+            "rank": 10,
+            "distance": 0.47635599970817566,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "26",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          }
+        ]
+      },
+      {
+        "question_id": 11,
+        "question": "What is recommended for adjuvant bisphosphonate therapy in postmenopausal women with node-positive invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.12.1"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.3290828764438629,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3290828764438629,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 2,
+            "distance": 0.3729186952114105,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.48464667797088623,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.4983505308628082,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4999595880508423,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 6,
+            "distance": 0.500395655632019,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Metastases",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5084115266799927,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5093227624893188,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5136523246765137,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5285063982009888,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "46",
+            "section": "Radiotherapy",
+            "recommendation": "1.13"
+          }
+        ]
+      },
+      {
+        "question_id": 12,
+        "question": "When should bisphosphonates be considered for node-negative invasive breast cancer?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.12.2"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.3609742522239685,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.3609742522239685,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 2,
+            "distance": 0.38098663091659546,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4947637915611267,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Metastases",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5055502653121948,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 5,
+            "distance": 0.5078009963035583,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5105982422828674,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5136396288871765,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5277708768844604,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5302162766456604,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5414063930511475,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 13,
+        "question": "What information should be discussed regarding the risks of bisphosphonate treatment?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.12.3"
+        },
+        "ground_truth_ranks": [
+          1,
+          2
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.4871762990951538,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4871762990951538,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.5156658291816711,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5877518653869629,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5936278700828552,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 5,
+            "distance": 0.6155028343200684,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Metastases",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 6,
+            "distance": 0.6309555768966675,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 7,
+            "distance": 0.6534566879272461,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "52",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6651579141616821,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "18",
+            "section": "Breast reconstruction",
+            "recommendation": "1.5"
+          },
+          {
+            "rank": 9,
+            "distance": 0.6670504808425903,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6799753308296204,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "31",
+            "section": "Palliative and end of life care",
+            "recommendation": "1.14"
+          }
+        ]
+      },
+      {
+        "question_id": 14,
+        "question": "What are the recommendations for adjuvant endocrine therapy for ER-positive ductal carcinoma in situ?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.18"
+        },
+        "ground_truth_ranks": [
+          2
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.421241819858551,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.39527255296707153,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.421241819858551,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.44660595059394836,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 4,
+            "distance": 0.46246808767318726,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4697800576686859,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.490597128868103,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5060334205627441,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5225166082382202,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "12",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5249419808387756,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5265316367149353,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 15,
+        "question": "What are the recommendations regarding ovarian function suppression with endocrine therapy?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.7"
+        },
+        "ground_truth_ranks": [
+          2
+        ],
+        "best_rank": 2,
+        "hit_at_1": false,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 0.5,
+        "best_distance": 0.4021707773208618,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.39551496505737305,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4021707773208618,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4222851097583771,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.44985687732696533,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.4742579460144043,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 6,
+            "distance": 0.4783893823623657,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.48687544465065,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.4881507158279419,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 9,
+            "distance": 0.49031972885131836,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "8",
+            "section": "Pretreatment assessment",
+            "recommendation": "1.2"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5101066827774048,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "50",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          }
+        ]
+      },
+      {
+        "question_id": 16,
+        "question": "What is recommended regarding bone mineral density when starting testicular function suppression with an aromatase inhibitor?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "recommendation": "1.11.13"
+        },
+        "ground_truth_ranks": [
+          1
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.4608181118965149,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4608181118965149,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.5362616181373596,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5846124291419983,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5999893546104431,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "56",
+            "section": "Follow-up",
+            "recommendation": "1.15"
+          },
+          {
+            "rank": 5,
+            "distance": 0.600506067276001,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.6051087975502014,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 7,
+            "distance": 0.6221649646759033,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "50",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6310989856719971,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "15",
+            "section": "Pathological assessment and genetic testing",
+            "recommendation": "1.4"
+          },
+          {
+            "rank": 9,
+            "distance": 0.6323832273483276,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6332143545150757,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "15",
+            "section": "Imaging assessment",
+            "recommendation": "1.3"
+          }
+        ]
+      },
+      {
+        "question_id": 17,
+        "question": "What factors are considered when deciding on extended endocrine therapy?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Extended endocrine therapy"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          3
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.4250866770744324,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4250866770744324,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.4401191473007202,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.4434448778629303,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.48100996017456055,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.48583361506462097,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5191160440444946,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.5254812240600586,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "52",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 8,
+            "distance": 0.5262385010719299,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 9,
+            "distance": 0.5456530451774597,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "48",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 10,
+            "distance": 0.5485264658927917,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "18",
+            "section": "Systemic anticancer therapy planning",
+            "recommendation": "1.6"
+          }
+        ]
+      },
+      {
+        "question_id": 18,
+        "question": "What side effects are associated with aromatase inhibitors?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Endocrine therapy"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.4861903786659241,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.4861903786659241,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.5242980122566223,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5397312045097351,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.544522762298584,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 5,
+            "distance": 0.5863028764724731,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.596689760684967,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.6015384197235107,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6341021060943604,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "52",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 9,
+            "distance": 0.6397964358329773,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "50",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6427373290061951,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          }
+        ]
+      },
+      {
+        "question_id": 19,
+        "question": "What are the main side effects associated with tamoxifen?",
+        "expected_relevant": true,
+        "ground_truth": {
+          "source": "NG101",
+          "section_keywords": [
+            "Endocrine therapy"
+          ]
+        },
+        "ground_truth_ranks": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "best_rank": 1,
+        "hit_at_1": true,
+        "hit_at_5": true,
+        "hit_at_10": true,
+        "reciprocal_rank": 1.0,
+        "best_distance": 0.5084363222122192,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.5084363222122192,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "40",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 2,
+            "distance": 0.543522834777832,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "38",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5619298219680786,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "34",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5813633799552917,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "55",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          },
+          {
+            "rank": 5,
+            "distance": 0.5950111150741577,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "36",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5964089632034302,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "29",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 7,
+            "distance": 0.628442645072937,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "31",
+            "section": "Endocrine therapy for hormone receptor positive breast cancer",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6421242356300354,
+            "is_ground_truth": true,
+            "source": "NG101",
+            "page": "41",
+            "section": "Adjuvant bisphosphonate therapy",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 9,
+            "distance": 0.649806559085846,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "19",
+            "section": "Systemic anticancer therapy for all receptor subtypes",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6509463787078857,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "52",
+            "section": "Management of treatment side effects and menopausal symptoms",
+            "recommendation": "1.14"
+          }
+        ]
+      },
+      {
+        "question_id": 20,
+        "question": "What treatment does NICE recommend for pancreatic cancer?",
+        "expected_relevant": false,
+        "ground_truth": {},
+        "ground_truth_ranks": [],
+        "best_rank": null,
+        "hit_at_1": false,
+        "hit_at_5": false,
+        "hit_at_10": false,
+        "reciprocal_rank": 0.0,
+        "best_distance": null,
+        "guardrail_pass": true,
+        "retrieved": [
+          {
+            "rank": 1,
+            "distance": 0.576485812664032,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "26",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 2,
+            "distance": 0.5775864124298096,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "23",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 3,
+            "distance": 0.5880090594291687,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Uncontrolled local disease",
+            "recommendation": "1.12"
+          },
+          {
+            "rank": 4,
+            "distance": 0.5891271233558655,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "18",
+            "section": "Choosing systemic anticancer therapy",
+            "recommendation": "1.6"
+          },
+          {
+            "rank": 5,
+            "distance": 0.5908166766166687,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "19",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 6,
+            "distance": 0.5929090976715088,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "28",
+            "section": "Hormone receptor positive, HER2-negative breast cancer",
+            "recommendation": "1.10"
+          },
+          {
+            "rank": 7,
+            "distance": 0.59983229637146,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "29",
+            "section": "Menopausal symptoms",
+            "recommendation": "1.11"
+          },
+          {
+            "rank": 8,
+            "distance": 0.6029733419418335,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "30",
+            "section": "Metastases",
+            "recommendation": "1.13"
+          },
+          {
+            "rank": 9,
+            "distance": 0.606562077999115,
+            "is_ground_truth": false,
+            "source": "CG81",
+            "page": "21",
+            "section": "Treatments by receptor subtype",
+            "recommendation": "1.7"
+          },
+          {
+            "rank": 10,
+            "distance": 0.6141959428787231,
+            "is_ground_truth": false,
+            "source": "NG101",
+            "page": "10",
+            "section": "Surgery to the breast and axilla",
+            "recommendation": "1.4"
+          }
+        ]
+      }
+    ]
+  }
+]

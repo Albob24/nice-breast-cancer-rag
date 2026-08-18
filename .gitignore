@@ -1,0 +1,61 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# ChromaDB / Vector Stores
+# =========================
+nice_breast_cancer_db/
+nice_breast_cancer_db_A/
+nice_breast_cancer_db_B/
+
+*.sqlite
+*.sqlite3
+
+# =========================
+# Next.js
+# =========================
+web/node_modules/
+web/.next/
+web/out/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/  
+
+# =========================
+# Source guideline PDFs
+# =========================
+data/*.pdf

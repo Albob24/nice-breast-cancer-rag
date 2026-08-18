@@ -1,0 +1,121 @@
+{
+  "Q01": {
+    "source": "NG101",
+    "pages": [35],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q02": {
+    "source": "NG101",
+    "pages": [36],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q03": {
+    "source": "NG101",
+    "pages": [29],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q04": {
+    "source": "NG101",
+    "pages": [28, 29],
+    "section": "Hormone receptor positive, HER2-negative breast cancer"
+  },
+
+  "Q05": {
+    "source": "NG101",
+    "pages": [25, 26, 27],
+    "section": "HER2-positive breast cancer"
+  },
+
+  "Q06": {
+    "source": "CG81",
+    "pages": [19, 20, 21, 22],
+    "section": "Treatments by receptor subtype"
+  },
+
+  "Q07": {
+    "source": "NG101",
+    "pages": [35],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q08": {
+    "source": "NG101",
+    "pages": [38, 39, 40],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q09": {
+    "source": "NG101",
+    "pages": [37, 38, 39],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q10": {
+    "source": "NG101",
+    "pages": [37, 38, 39, 40],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q11": {
+    "source": "NG101",
+    "pages": [34, 35, 36],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q12": {
+    "source": "NG101",
+    "pages": [39, 40],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q13": {
+    "source": "NG101",
+    "pages": [39, 40, 41],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q14": {
+    "source": "NG101",
+    "pages": [39, 40, 41],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q15": {
+    "source": "NG101",
+    "pages": [7, 8],
+    "section": "Providing information and psychological support"
+  },
+
+  "Q16": {
+    "source": "NG101",
+    "pages": [28, 29],
+    "section": "Hormone receptor positive, HER2-negative breast cancer"
+  },
+
+  "Q17": {
+    "source": "NG101",
+    "pages": [36, 37],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q18": {
+    "source": "NG101",
+    "pages": [36, 37],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q19": {
+    "source": "NG101",
+    "pages": [36, 37],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  },
+
+  "Q20": {
+    "source": "NG101",
+    "pages": [40, 41],
+    "section": "Endocrine therapy for hormone receptor positive breast cancer"
+  }
+}

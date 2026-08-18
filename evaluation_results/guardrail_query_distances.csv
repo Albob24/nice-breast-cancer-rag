@@ -1,0 +1,26 @@
+﻿id,type,question,minimum_distance
+1,relevant,What endocrine therapy is recommended for postmenopausal women with ER-positive invasive breast cancer?,0.3930355906486511
+2,relevant,What endocrine therapy options should be discussed with premenopausal or perimenopausal people with ER-positive invasive breast cancer?,0.3092086613178253
+3,relevant,What endocrine therapy is recommended for people with male reproductive organs who have ER-positive invasive breast cancer?,0.3276676833629608
+4,relevant,When should extended endocrine therapy with an aromatase inhibitor be offered after tamoxifen?,0.3499559760093689
+5,relevant,What is recommended for extended tamoxifen therapy beyond 5 years?,0.38443630933761597
+6,relevant,When should neoadjuvant endocrine therapy be considered?,0.4023360013961792
+7,relevant,What does NICE recommend for premenopausal women regarding neoadjuvant chemotherapy versus neoadjuvant endocrine therapy?,0.33640748262405396
+8,relevant,What are the recommendations for HER2-positive breast cancer?,0.3480246663093567
+9,relevant,What treatment is recommended for triple-negative breast cancer?,0.39893025159835815
+10,relevant,What is recommended for HER2-negative high-risk early breast cancer with germline BRCA1 or BRCA2 mutations?,0.3648557960987091
+11,relevant,What is recommended for adjuvant bisphosphonate therapy in postmenopausal women with node-positive invasive breast cancer?,0.30767622590065
+12,relevant,When should bisphosphonates be considered for node-negative invasive breast cancer?,0.34826987981796265
+13,relevant,What information should be discussed regarding the risks of bisphosphonate treatment?,0.4871762990951538
+14,relevant,What are the recommendations for adjuvant endocrine therapy for ER-positive ductal carcinoma in situ?,0.39527255296707153
+15,relevant,What are the recommendations regarding ovarian function suppression with endocrine therapy?,0.37928688526153564
+101,out_of_scope,What treatment does NICE recommend for pancreatic cancer?,0.5560094714164734
+102,out_of_scope,What are the symptoms and treatment options for lung cancer?,0.6754531264305115
+103,out_of_scope,What is the recommended treatment for diabetes?,0.6751220226287842
+104,out_of_scope,What antibiotics are recommended for pneumonia?,0.6766369342803955
+105,out_of_scope,What is the treatment for hypertension?,0.6966004967689514
+106,out_of_scope,How is Alzheimer's disease treated?,0.7588253617286682
+107,out_of_scope,What treatment is recommended for prostate cancer?,0.6207607984542847
+108,out_of_scope,What is the treatment for a broken leg?,0.6757262945175171
+109,out_of_scope,What medication should be used for migraine?,0.7196404337882996
+110,out_of_scope,What is the recommended treatment for appendicitis?,0.7132773399353027

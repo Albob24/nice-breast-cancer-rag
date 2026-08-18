@@ -1,0 +1,41 @@
+﻿experiment,question_id,question,expected_relevant,best_rank,hit_at_1,hit_at_5,hit_at_10,reciprocal_rank,best_distance,guardrail_pass
+A,1,What endocrine therapy is recommended for postmenopausal women with ER-positive invasive breast cancer?,True,5,False,True,True,0.2,0.42684656381607056,True
+A,2,What endocrine therapy options should be discussed with premenopausal or perimenopausal people with ER-positive invasive breast cancer?,True,1,True,True,True,1.0,0.3092086613178253,True
+A,3,What endocrine therapy is recommended for people with male reproductive organs who have ER-positive invasive breast cancer?,True,2,False,True,True,0.5,0.37465205788612366,True
+A,4,When should extended endocrine therapy with an aromatase inhibitor be offered after tamoxifen?,True,4,False,True,True,0.25,0.415667861700058,True
+A,5,What is recommended for extended tamoxifen therapy beyond 5 years?,True,1,True,True,True,1.0,0.38443630933761597,True
+A,6,When should neoadjuvant endocrine therapy be considered?,True,2,False,True,True,0.5,0.4055325984954834,True
+A,7,What does NICE recommend for premenopausal women regarding neoadjuvant chemotherapy versus neoadjuvant endocrine therapy?,True,1,True,True,True,1.0,0.33640748262405396,True
+A,8,What are the recommendations for HER2-positive breast cancer?,True,1,True,True,True,1.0,0.3480246663093567,True
+A,9,What treatment is recommended for triple-negative breast cancer?,True,2,False,True,True,0.5,0.41894829273223877,True
+A,10,What is recommended for HER2-negative high-risk early breast cancer with germline BRCA1 or BRCA2 mutations?,True,1,True,True,True,1.0,0.3648557960987091,True
+A,11,What is recommended for adjuvant bisphosphonate therapy in postmenopausal women with node-positive invasive breast cancer?,True,1,True,True,True,1.0,0.30767622590065,True
+A,12,When should bisphosphonates be considered for node-negative invasive breast cancer?,True,1,True,True,True,1.0,0.34826987981796265,True
+A,13,What information should be discussed regarding the risks of bisphosphonate treatment?,True,1,True,True,True,1.0,0.4871762990951538,True
+A,14,What are the recommendations for adjuvant endocrine therapy for ER-positive ductal carcinoma in situ?,True,2,False,True,True,0.5,0.41584646701812744,True
+A,15,What are the recommendations regarding ovarian function suppression with endocrine therapy?,True,1,True,True,True,1.0,0.37928688526153564,True
+A,16,What is recommended regarding bone mineral density when starting testicular function suppression with an aromatase inhibitor?,True,1,True,True,True,1.0,0.42680999636650085,True
+A,17,What factors are considered when deciding on extended endocrine therapy?,True,1,True,True,True,1.0,0.3949568569660187,True
+A,18,What side effects are associated with aromatase inhibitors?,True,1,True,True,True,1.0,0.44577786326408386,True
+A,19,What are the main side effects associated with tamoxifen?,True,1,True,True,True,1.0,0.47514042258262634,True
+A,20,What treatment does NICE recommend for pancreatic cancer?,False,,False,False,False,0.0,,True
+B,1,What endocrine therapy is recommended for postmenopausal women with ER-positive invasive breast cancer?,True,6,False,False,True,0.16666666666666666,0.45133253931999207,True
+B,2,What endocrine therapy options should be discussed with premenopausal or perimenopausal people with ER-positive invasive breast cancer?,True,1,True,True,True,1.0,0.33643752336502075,True
+B,3,What endocrine therapy is recommended for people with male reproductive organs who have ER-positive invasive breast cancer?,True,1,True,True,True,1.0,0.30424222350120544,True
+B,4,When should extended endocrine therapy with an aromatase inhibitor be offered after tamoxifen?,True,2,False,True,True,0.5,0.4056101441383362,True
+B,5,What is recommended for extended tamoxifen therapy beyond 5 years?,True,2,False,True,True,0.5,0.44737330079078674,True
+B,6,When should neoadjuvant endocrine therapy be considered?,True,1,True,True,True,1.0,0.41020283102989197,True
+B,7,What does NICE recommend for premenopausal women regarding neoadjuvant chemotherapy versus neoadjuvant endocrine therapy?,True,1,True,True,True,1.0,0.33791452646255493,True
+B,8,What are the recommendations for HER2-positive breast cancer?,True,1,True,True,True,1.0,0.3637997508049011,True
+B,9,What treatment is recommended for triple-negative breast cancer?,True,2,False,True,True,0.5,0.4295656979084015,True
+B,10,What is recommended for HER2-negative high-risk early breast cancer with germline BRCA1 or BRCA2 mutations?,True,2,False,True,True,0.5,0.4249240756034851,True
+B,11,What is recommended for adjuvant bisphosphonate therapy in postmenopausal women with node-positive invasive breast cancer?,True,1,True,True,True,1.0,0.3290828764438629,True
+B,12,When should bisphosphonates be considered for node-negative invasive breast cancer?,True,1,True,True,True,1.0,0.3609742522239685,True
+B,13,What information should be discussed regarding the risks of bisphosphonate treatment?,True,1,True,True,True,1.0,0.4871762990951538,True
+B,14,What are the recommendations for adjuvant endocrine therapy for ER-positive ductal carcinoma in situ?,True,2,False,True,True,0.5,0.421241819858551,True
+B,15,What are the recommendations regarding ovarian function suppression with endocrine therapy?,True,2,False,True,True,0.5,0.4021707773208618,True
+B,16,What is recommended regarding bone mineral density when starting testicular function suppression with an aromatase inhibitor?,True,1,True,True,True,1.0,0.4608181118965149,True
+B,17,What factors are considered when deciding on extended endocrine therapy?,True,1,True,True,True,1.0,0.4250866770744324,True
+B,18,What side effects are associated with aromatase inhibitors?,True,1,True,True,True,1.0,0.4861903786659241,True
+B,19,What are the main side effects associated with tamoxifen?,True,1,True,True,True,1.0,0.5084363222122192,True
+B,20,What treatment does NICE recommend for pancreatic cancer?,False,,False,False,False,0.0,,True

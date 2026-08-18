@@ -1,0 +1,5 @@
+Put NG101.pdf and CG81.pdf in this folder before running src/chunking.py.
+
+Download the latest versions directly from NICE:
+- https://www.nice.org.uk/guidance/ng101
+- https://www.nice.org.uk/guidance/cg81
